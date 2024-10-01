@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-color: hsl(20, 50%, 98%);
+    padding: 20px;
+    display: flex;
+    gap: 2rem;
+    
+}
+
+#desert{
+    width: 75%;
+    
+    /* background-color: pink; */
+}
+
+#cart{
+    width: 25%;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#desert h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+                'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+
+.rowOne{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 40px;
+
+}
+
+.rowOne div{
+    height: 400px;
+    width: 300px;
+    position: relative;
+}
+
+ .img-div > img{
+    width: 300px;
+    border-radius: 12px;
+
+  
+}
+
+.addToCartContainer{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    border: 1px solid  black;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 268px;
+    left: 75px;
+}
+
+.addToCartContainer > img{
+    width:   15px;
+}
+
+#addAndSub{
+    width: 150px;
+    height: 40px;
+    border: 1px solid hsl(14, 86%, 42%);
+    background: hsl(14, 86%, 42%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 268px;
+    left: 75px;
+    display: none;
+}
+
+#sub{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
+
+#add{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+}
+
+.productname{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    color: hsl(7, 20%, 60%);
+}
+
+.productDescription{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.productPrice{
+    color: hsl(14, 86%, 42%);
+}
+
+#cart > img{
+    width: 250px;
+    text-align: center;
+}
+
+#cart h3{
+    color: hsl(14, 86%, 42%);
+    font-size: 20px;
+}
+
+#cart p{
+    color: hsl(7, 20%, 60%);
+}
+
+h4{
+    margin: 8px;
+    font-size: 20px;
+}
+
+li{
+    list-style: none;
+}
+
+h5{
+    font-size: 25px;
+    color: blue;
+    margin-top: 50px;
+}
+
+h6{
+    background-color: red;
+    color: white;
+    width: 300px;
+    border-radius: 20px;
+    border: 1px solid red;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    display: none;
+    position: absolute;
+    bottom: 40px;
+}
+
